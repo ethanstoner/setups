@@ -10,7 +10,7 @@ Complete setup guide for Cursor IDE with all necessary dependencies, extensions,
 4. [Required Extensions](#required-extensions)
 5. [Useful Tools and Packages](#useful-tools-and-packages)
 6. [Premade Packages](./premade-packages/README.md)
-7. [Docker Setup](#docker-setup)
+7. [Docker Container Setup](#docker-container-setup)
 8. [Quick Setup Checklist](#quick-setup-checklist)
 
 ---
