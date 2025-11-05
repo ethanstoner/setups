@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localhost Server Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            text-align: center;
+        }
+        .info {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Localhost Server Test</h1>
+        <p>If you can see this page, your localhost server is working correctly!</p>
+        
+        <div class="info">
+            <h3>Server Information</h3>
+            <p>This page is being served by a Python HTTP server.</p>
+            <p>You can modify this HTML file to test your server.</p>
+        </div>
+        
+        <div class="info">
+            <h3>Quick Commands</h3>
+            <p>Start server: <code>python3 -m http.server 5173</code></p>
+            <p>Or use the advanced server: <code>python server.py</code></p>
+            <p>Visit: <code>http://localhost:5173</code></p>
+        </div>
+    </div>
+</body>
+</html>
+

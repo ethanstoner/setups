@@ -1,0 +1,6 @@
+# No external dependencies required for basic functionality
+# Uses only Python standard library
+
+# Optional: For better cross-platform terminal support
+# inquirer>=3.0.0
+
